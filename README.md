@@ -1,2 +1,2 @@
 # Factors-Influencing-Blood-Pressure-in-Hospital-Patients
-Different Factors including Sex, Marriage, Smoking, BMI and Race for Blood Pressure
+This contains the blood pressure dataset, with factors including Sex, Marriage, Smoking, BMI, and Race. This dataset has been provided by the University of Ottawa Statistics course( **HSS 2381**) and the professor. This file was originally utilized in SPSS, but I have utilized it within R software, as it is interchangeable within both platforms. 
