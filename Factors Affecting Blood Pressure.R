@@ -82,6 +82,17 @@ summary(anova_result)
 race         3    313   104.3   0.566   0.64
 Residuals   46   8475   184.2 
 
+library(ggplot2)
+ggplot(Blood_Pressure, aes(x = race, y = sbp, fill = race)) + 
+  geom_boxplot() + 
+  labs(
+    title = "Systolic Blood Pressure by Race", 
+    x = "Race", 
+    y = "SBP"
+  ) + 
+  theme_classic()
+
+
 model <- lm(sbp ~ age + BMI + sex + smoke, data = Blood_Pressure)
 summary(model)
 
