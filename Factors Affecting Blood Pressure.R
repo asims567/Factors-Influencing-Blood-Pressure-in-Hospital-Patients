@@ -74,3 +74,41 @@ Min. 1st Qu.  Median    Mean 3rd Qu.
   12.09   21.64   26.60   28.69   34.51 
    Max. 
   49.88
+
+
+anova_result <- aov(sbp ~ race, data = Blood_Pressure)
+summary(anova_result)
+ Df Sum Sq Mean Sq F value Pr(>F)
+race         3    313   104.3   0.566   0.64
+Residuals   46   8475   184.2 
+
+model <- lm(sbp ~ age + BMI + sex + smoke, data = Blood_Pressure)
+summary(model)
+
+lm(formula = sbp ~ age + BMI + sex + smoke, data = Blood_Pressure)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-52.057  -6.345   4.116   7.689  19.746 
+
+Coefficients:
+             Estimate Std. Error t value
+(Intercept) 117.52064    8.50286  13.821
+age          -0.04352    0.13014  -0.334
+BMI           0.19682    0.21817   0.902
+sexFemale     5.70312    3.85469   1.480
+smokeNo       2.81901    3.85615   0.731
+            Pr(>|t|)    
+(Intercept)   <2e-16 ***
+age            0.740    
+BMI            0.372    
+sexFemale      0.146    
+smokeNo        0.469    
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1
+  ‘ ’ 1
+
+Residual standard error: 13.46 on 45 degrees of freedom
+Multiple R-squared:  0.07288,	Adjusted R-squared:  -0.009529 
+F-statistic: 0.8844 on 4 and 45 DF,  p-value: 0.481
