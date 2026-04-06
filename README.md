@@ -23,7 +23,7 @@ The shape being a bell curve indicates that the **mean (28.68) and median (26.60
 
 
 # **Race (RACE)**
-Race is a categorical variable, so frequency counts were used to summarize the data. A bar chart was created to display the distribution of patients across racial categories (White, Asian, Black, Other). Since RACE is a nominal variable, the mode (most frequent category) is the most appropriate measure of central tendency. The bar chart shows that the majority of the race distribution is WHite. 
+Race is a categorical variable, so frequency counts were used to summarize the data. A bar chart was created to display the distribution of patients across racial categories (White, Asian, Black, Other). Since RACE is a nominal variable, the mode (most frequent category) is the most appropriate measure of central tendency. The bar chart shows that the majority of the race distribution is White. 
 
 <img width="316" height="242" alt="Race Bar Chart" src="https://github.com/user-attachments/assets/e477cf1e-e2aa-4796-ae2a-d46ce58dcde3" />
 
