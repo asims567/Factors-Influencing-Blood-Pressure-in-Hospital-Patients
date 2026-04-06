@@ -6,7 +6,9 @@ Graphs and plots will be showcased to analyze the meaning behind the data set an
 
 # **Systolic Blood Pressure - SBP**
 
-Systolic Blood Pressure (SBP) was analyzed using measures of central tendency and variability. The mean, median, and standard deviation were calculated to summarize the distribution of SBP values among patients. A histogram with an overlaid distribution curve was created to assess the shape of the distribution. The distribution appeared to be **left-skewed**.
+Systolic Blood Pressure (SBP) was analyzed using measures of central tendency and variability. The mean, median, and standard deviation were calculated to summarize the distribution of SBP values among patients. A histogram with an overlaid distribution curve was created to assess the shape of the distribution. The distribution appeared to be **left-skewed 
+
+Left-skewed demonstrates that patients will peak at high levels of Blood Pressure. 
 
 Due to the skewness in the distribution, the median (**130**) provides a more accurate representation of central tendency than the mean (**125.8**). Therefore, the **median** > **mean**. 
 
